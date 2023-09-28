@@ -31,7 +31,6 @@ const Hero = () => {
         
         <div class="column1">
             
-            <p>Yeap , Its me  </p>
             <img src={Profile}></img>
         </div>
     </div>
