@@ -1,0 +1,98 @@
+.box{
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    justify-content: center;
+}
+.card3 {
+    margin: 2% 2%;
+    font-family: 'Gabarito', cursive;
+    width: 320px;
+    background: #fff480;
+    color: black;
+    position: relative;
+    border-radius: 2.5em;
+    padding: 2em;
+    transition: transform 0.4s ease;
+  }
+  
+  .card3 .card3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 5em;
+    height: 100%;
+    transition: transform 0.4s ease;
+  }
+  
+  .card3 .card3-top, .card3 .card3-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card3 .card3-top p, .card3 .card3-top .card3-title, .card3 .card3-bottom p, .card3 .card3-bottom .card3-title {
+    margin: 0;
+  }
+  
+  .card3 .card3-title {
+    font-weight: bold;
+  }
+  
+  .card3 .card3-top p, .card3 .card3-bottom p {
+    font-weight: 600;
+  }
+  
+  .card3 .card3-bottom {
+    margin-top: 20px;
+    margin-left: 25px;
+    align-items: flex-end;
+  }
+  
+  .card3 .card3-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    pointer-events: none;
+  }
+  
+  .card3 .card3-image svg {
+
+    width: fit-content;
+    height: auto;
+    margin-top: 25px;
+    transition: transform 0.4s ease;
+  }
+  
+  .card3:hover {
+    cursor: pointer;
+    transform: scale(0.97);
+  }
+  
+  .card3:hover .card3-content {
+    transform: scale(0.96);
+  }
+  
+  .card3:hover .card3-image svg {
+    transform: scale(1.05);
+  }
+  
+  .card3:active {
+    transform: scale(0.9);
+  }
+
+  #html{
+    background-color: #f06529;
+  }
+  #react{
+    background-color: #436cf3;
+  }
+  #figma{
+    background-color: #fa67a7;
+  }
+  #css{
+    background-color: ;
+  }

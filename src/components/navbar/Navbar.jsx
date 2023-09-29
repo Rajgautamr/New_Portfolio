@@ -1,5 +1,5 @@
 import React from 'react'
-import Img from '../../assets/img/logo1.webp'
+import Img from '../../assets/img/profile2.png'
 import './navbar.css'
 
 
