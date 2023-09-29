@@ -14,7 +14,7 @@
   margin: 0% ;
 }
 body{
-  margin: 0% 10%;
+  margin: 0% ;
   padding: 0%;
 }
 
@@ -29,7 +29,7 @@ body{
 @media screen and (max-width: 968px) {
     
   body{
-    margin: 0% 3%;
+    margin: 0%;
     padding: 0%;
   }
   

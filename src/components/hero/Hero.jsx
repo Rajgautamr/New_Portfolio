@@ -3,7 +3,7 @@ import Profile from '../../assets/img/raj1.jpg'
 import './hero.css';
 const Hero = () => {
   return (
-    <div>
+    <div className='hero'>
       <div class="container">
         <div class="column">
         <p>Hello, I'M A</p>
@@ -31,7 +31,7 @@ const Hero = () => {
         
         <div class="column1">
             
-            <img src={Profile}></img>
+            <img src={Profile} alt="Photo"></img>
         </div>
     </div>
     </div>

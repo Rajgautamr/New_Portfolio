@@ -1,4 +1,6 @@
-
+.pro{
+  margin: 0% 20%;
+}
 h1{
     text-align: center;
     font-size: 56px;
@@ -157,3 +159,9 @@ h1{
   color: var(--accent-color-2);
   border: 1px solid var(--accent-color-2);
 }
+
+@media screen and (max-width: 767px) {
+  .pro{
+    margin: 0% 2%;
+  }
+} 

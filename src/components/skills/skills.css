@@ -1,3 +1,6 @@
+.skills{
+  margin: 0% 20%;
+}
 .box{
     display: flex;
     flex-wrap: wrap;
@@ -7,7 +10,7 @@
 .card3 {
     margin: 2% 2%;
     font-family: 'Gabarito', cursive;
-    width: 320px;
+    width: 200px;
     background: #fff480;
     color: black;
     position: relative;
@@ -93,3 +96,9 @@
   #figma{
     background-color: #fa67a7;
   }
+
+  @media screen and (max-width: 767px) {
+    .skills{
+      margin: 0% 2%;
+    }
+  } 

@@ -6,8 +6,8 @@
     position: fixed!important;
     background-color: #ffffff;
     z-index: -1; 
-    width: 80%;
-    margin-left: -8%;
+    width: 60%;
+    margin-left: 10%;
     height: 100%;
     scroll-behavior: smooth scroll;
 }

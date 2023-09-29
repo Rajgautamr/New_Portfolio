@@ -4,11 +4,11 @@ import ProjectImg from '../../assets/img/projectimg.jpg'
 
 const Projects = () => {
   return (
-    <div class="pro">
+    <div className="pro">
       <h1>Projects</h1>
       <div className='project1'>
       {/* <div class="card">
-        <img src={ProjectImg} ></img>
+        <img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -16,7 +16,7 @@ const Projects = () => {
 </div>
 
 <div class="card">
-    <img src={ProjectImg} ></img>
+    <img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -24,21 +24,21 @@ const Projects = () => {
 </div>
 
 <div class="card">
-<img src={ProjectImg} ></img>
+<img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div> 
 </div>
 <div class="card">
-<img src={ProjectImg} ></img>
+<img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
   </div> 
 </div>
 <div class="card">
-<img src={ProjectImg} ></img>
+<img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -46,7 +46,7 @@ const Projects = () => {
 </div>
 
 <div class="card">
-<img src={ProjectImg} ></img>   
+<img src={ProjectImg} alt="project" ></img>   
   <div class="card__content">
     <p class="card__title">Card Title
     </p><p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -63,7 +63,7 @@ const Projects = () => {
 </div>
 
 <div class="card">
-  <img src={ProjectImg} ></img>
+  <img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Project Name</p>
     <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -73,7 +73,7 @@ const Projects = () => {
 </div>
 
 <div class="card">
-  <img src={ProjectImg} ></img>
+  <img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Project Name</p>
     <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
@@ -83,7 +83,7 @@ const Projects = () => {
 </div>
 
 <div class="card">
-  <img src={ProjectImg} ></img>
+  <img src={ProjectImg} alt="project" ></img>
   <div class="card__content">
     <p class="card__title">Project Name</p>
     <p class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>

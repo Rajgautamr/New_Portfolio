@@ -1,4 +1,8 @@
 
+.hero{
+  margin: 0% 20%;
+  padding-top: 2%;
+}
 .container {
     font-family: 'Gabarito', cursive;
     display: flex;
@@ -15,7 +19,7 @@
 }
 .column1{
     flex: 35%;
-    margin-top: 2rem;
+    margin-top: 3rem ;
     padding: 20px;
 
     display: flex;
@@ -31,7 +35,7 @@ h2{
  .column p{
     text-align: start;
     font-size: 20px;
-    padding-top: 35%;
+    padding-top: 20%;
     
     
  }
@@ -120,4 +124,8 @@ h2{
     opacity: 1;
   }
 }
-
+@media screen and (max-width: 767px) {
+  .hero{
+    margin: 0% 2%;
+  }
+} 
