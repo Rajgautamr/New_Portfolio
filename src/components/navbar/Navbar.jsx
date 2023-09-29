@@ -8,21 +8,29 @@ const Navbar = () => {
     <div> 
       <header>
         <img src={Img}></img>
+        <nav>
         <ul>
           <li>Home</li>
           <li>About Me</li>
           <li>Projects</li>
         </ul>
+        </nav>
         
 <button>
-    <span class="circle1"></span>
-    <span class="circle2"></span>
-    <span class="circle3"></span>
-    <span class="circle4"></span>
-    <span class="circle5"></span>
-    <span class="text">Contact Me</span>
+    <span className="circle1"></span>
+    <span className="circle2"></span>
+    <span className="circle3"></span>
+    <span className="circle4"></span>
+    <span className="circle5"></span>
+    <span className="text">Contact Me</span>
 </button>
+{/* <div id="mobile">
+        
+        </div> */}
       </header>
+
+      
+    
     </div>
   )
 }

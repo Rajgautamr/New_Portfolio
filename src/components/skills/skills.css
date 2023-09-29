@@ -1,6 +1,6 @@
 .box{
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-content: center;
     justify-content: center;
 }
@@ -92,7 +92,4 @@
   }
   #figma{
     background-color: #fa67a7;
-  }
-  #css{
-    background-color: ;
   }

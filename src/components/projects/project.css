@@ -1,3 +1,4 @@
+
 h1{
     text-align: center;
     font-size: 56px;
@@ -106,6 +107,7 @@ h1{
 }
 
 .card__content {
+  font-family: 'Gabarito', cursive;
   position: absolute;
   top: 0;
   left: 0;
@@ -113,7 +115,7 @@ h1{
   height: 100%;
   padding: 24px;
   box-sizing: border-box;
-  background-color: #f2f2f2;
+  background-color: var(--accent-color-1);
   transform: rotateX(-90deg);
   transform-origin: bottom;
   transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -126,7 +128,7 @@ h1{
 .card__title {
   margin: 0;
   font-size: 20px;
-  color: #333;
+  color: var(--primary-color);
   font-weight: 700;
 }
 
@@ -137,7 +139,7 @@ h1{
 .card__description {
   margin: 10px 0 10px;
   font-size: 12px;
-  color: #777;
+  color: var(--primary-color);
   line-height: 1.4;
 }
 
@@ -145,13 +147,13 @@ h1{
   margin-left: 10%;
   padding: 15px;
   border-radius: 8px;
-  background: #777;
+  background: var(--accent-color-2);
   border: none;
   color: white;
 }
 
 .secondary {
   background: transparent;
-  color: #777;
-  border: 1px solid #777;
+  color: var(--accent-color-2);
+  border: 1px solid var(--accent-color-2);
 }

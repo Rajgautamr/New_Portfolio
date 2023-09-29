@@ -1,3 +1,13 @@
+:root {
+  /* Primary Colors */
+  --primary-color: #FFFFFF;
+  --secondary-color: #00171F;
+
+  /* Background Colors */
+  --background-color: #ffffff;
+  --accent-color-1: #003459;
+  --accent-color-2: #007EA7;
+}
 *{
   box-sizing: border-box;
   padding: 0%;
@@ -8,6 +18,19 @@ body{
   padding: 0%;
 }
 
-@media screen {
+@media screen and (max-width: 768px) {
+    body{
+      margin: 0%;
+      padding: 0%;
+    }
+  }
+
+/* Media query for medium displays */
+@media screen and (max-width: 968px) {
+    
+  body{
+    margin: 0% 3%;
+    padding: 0%;
+  }
   
 }

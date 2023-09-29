@@ -4,7 +4,7 @@ import ProjectImg from '../../assets/img/projectimg.jpg'
 
 const Projects = () => {
   return (
-    <div>
+    <div class="pro">
       <h1>Projects</h1>
       <div className='project1'>
       {/* <div class="card">

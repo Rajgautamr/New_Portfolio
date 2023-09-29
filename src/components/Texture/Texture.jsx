@@ -3,7 +3,7 @@ import './texture.css'
 
 const Texture = () => {
   return (
-    <div>
+    <div class="texture">
     <div class="area" >
             <ul class="circles">
                     <li></li>
