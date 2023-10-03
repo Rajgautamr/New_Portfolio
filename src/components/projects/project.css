@@ -103,6 +103,6 @@ h4{
   }
   .project1{
     margin-bottom: 10px;
-    border-bottom: 5px solid var(--secondary-color);
+    border-bottom: 2px dotted var(--secondary-color);
   }
 } 
