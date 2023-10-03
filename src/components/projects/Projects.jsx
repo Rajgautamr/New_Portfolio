@@ -9,11 +9,11 @@ const Projects = () => {
     <div className="pro">
       <h1>Projects</h1>
       <div className='project1'>
-        <div class="column">
+        <div class="new">
             
             <img src={ProjectImg} alt="project img" ></img>
         </div>
-        <div class="column" >
+        <div class="new" >
             <h3>1. Project Name</h3>
             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione molestias eveniet facilis iusto perspiciatis corrupti corporis tenetur, eaque, optio quae culpa, ducimus esse. Quos harum atque illo maxime perspiciatis cupiditate?</h4>
             <div className='icons'>
@@ -40,7 +40,7 @@ const Projects = () => {
 
 
     <div className='project1'>
-        <div class="column">
+        <div class="new">
         <h3>2.Project Name</h3>
             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione molestias eveniet facilis iusto perspiciatis corrupti corporis tenetur, eaque, optio quae culpa, ducimus esse. Quos harum atque illo maxime perspiciatis cupiditate?</h4>
             <div className='icons'>
@@ -64,18 +64,18 @@ const Projects = () => {
         </div>
         
         </div>
-        <div class="column" >
+        <div class="new" >
         <img src={ProjectImg} alt="project img" ></img>
       </div>
         
     </div>  
 
     <div className='project1'>
-        <div class="column">
+        <div class="new">
             
             <img src={ProjectImg} alt="project img" ></img>
         </div>
-        <div class="column" >
+        <div class="new" >
             <h3>3. Project Name</h3>
             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione molestias eveniet facilis iusto perspiciatis corrupti corporis tenetur, eaque, optio quae culpa, ducimus esse. Quos harum atque illo maxime perspiciatis cupiditate?</h4>
             <div className='icons'>
@@ -102,7 +102,7 @@ const Projects = () => {
 
 
     <div className='project1'>
-        <div class="column">
+        <div class="new">
         <h3>4. Project Name</h3>
             <h4>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione molestias eveniet facilis iusto perspiciatis corrupti corporis tenetur, eaque, optio quae culpa, ducimus esse. Quos harum atque illo maxime perspiciatis cupiditate?</h4>
             <div className='icons'>
@@ -126,7 +126,7 @@ const Projects = () => {
         </div>
         
         </div>
-        <div class="column" >
+        <div class="new" >
         <img src={ProjectImg} alt="project img" ></img>
       </div>
         
