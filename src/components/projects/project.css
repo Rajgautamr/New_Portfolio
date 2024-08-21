@@ -36,13 +36,13 @@ h4{
   flex: 1;
 }
 
-.column:nth-child(2) {
+.column:nth-child(odd) {
   flex: 55%;
   padding: 0% 5%;
   align-self: center;
 }
 
-.column:nth-child(1) {
+.column:nth-child(even) {
   flex: 45%;
   align-self: center;
 
@@ -89,6 +89,12 @@ h4{
 .buttons{
   display: flex;
   margin: 2%;
+
+}
+.buttons:first-child{
+  display: flex;
+  margin: 2%;
+  gap: 24px;
 }
 .code{
   margin-right:10%;
